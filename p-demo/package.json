@@ -1,0 +1,16 @@
+{
+  "name": "p-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass --include-path scss assets/scss/style.scss assets/css/style.css",
+    "watch": "nodemon -e scss -x 'npm run css'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

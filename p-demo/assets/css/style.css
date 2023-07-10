@@ -1,0 +1,74 @@
+:root {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5; }
+
+.btn:focus {
+  box-shadow: none;
+  outline: 0; }
+
+.light {
+  background: #ebebeb; }
+
+.fs16 {
+  font-size: 1.6rem; }
+
+.fs20 {
+  font-size: 2rem; }
+
+.fs14 {
+  font-size: 1.4rem; }
+
+.card h2 {
+  color: #6d6d0d; }
+
+.card .btn-light {
+  background: #ebebeb;
+  color: #bdbb34;
+  height: 4rem;
+  width: 4rem; }
+  .card .btn-light span {
+    font-size: 2rem; }
+
+.list-group-item .circle {
+  color: #bdbb34; }
+
+.list-group-item span {
+  color: #808080; }
+
+.list-group-item .menu {
+  color: #6d6d0d; }
+
+.list-group-item .dropdown-menu {
+  min-width: 15rem; }
+
+.modal .modal-dialog {
+  margin: auto 0 0 auto; }
+  .modal .modal-dialog .modal-header {
+    background: #bdbb34; }
+  .modal .modal-dialog label {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0; }
+  .modal .modal-dialog .form-control {
+    font-size: 1.4rem;
+    border: 0;
+    border-bottom: 0.1rem solid #808080;
+    border-radius: 0;
+    padding: 0;
+    height: 3rem; }
+    .modal .modal-dialog .form-control:focus {
+      outline: 0;
+      box-shadow: none; }
+  .modal .modal-dialog .btn {
+    padding: 0.5rem 1.6rem;
+    border: 0.1rem solid #6d6d0d; }
+  .modal .modal-dialog .btn-submit {
+    background: #6d6d0d; }
+  .modal .modal-dialog .btn-cancel {
+    color: #6d6d0d !important; }

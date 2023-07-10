@@ -1,0 +1,98 @@
+$font: "Lato", sans-serif;
+$primary: #bdbb34;
+$primary-d: #6d6d0d;
+$light: #ebebeb;
+$blue: #35a5fa;
+$text-color: #333;
+$grey: #808080;
+
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-family: $font;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+.btn:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.light {
+  background: $light;
+}
+.fs16 {
+  font-size: 1.6rem;
+}
+.fs20 {
+  font-size: 2rem;
+}
+.fs14 {
+  font-size: 1.4rem;
+}
+.card {
+  h2 {
+    color: $primary-d;
+  }
+  .btn-light {
+    background: $light;
+    color: $primary;
+    height: 4rem;
+    width: 4rem;
+    span {
+      font-size: 2rem;
+    }
+  }
+}
+.list-group-item {
+  .circle {
+    color: $primary;
+  }
+  span {
+    color: $grey;
+  }
+  .menu {
+    color: $primary-d;
+  }
+  .dropdown-menu {
+    min-width: 15rem;
+  }
+}
+
+.modal {
+  .modal-dialog {
+    margin: auto 0 0 auto;
+    .modal-header {
+      background: $primary;
+    }
+    label {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin: 0;
+    }
+    .form-control {
+      font-size: 1.4rem;
+      border: 0;
+      border-bottom: 0.1rem solid $grey;
+      border-radius: 0;
+      padding: 0;
+      height: 3rem;
+      &:focus {
+        outline: 0;
+        box-shadow: none;
+      }
+    }
+    .btn {
+      padding: 0.5rem 1.6rem;
+      border: 0.1rem solid $primary-d;
+    }
+    .btn-submit {
+      background: $primary-d;
+    }
+    .btn-cancel {
+      color: $primary-d !important;
+    }
+  }
+}
