@@ -1,4 +1,3 @@
 # book-visit
-# book-visit
-# book-visit
-# book-visit
+# git clone
+# npm i
